@@ -785,6 +785,7 @@ text-align: center;
 hr{
         border: 5px solid black;
         /* border-radius: 5px; */
+        width:100%
 }
 
 p.fin{
