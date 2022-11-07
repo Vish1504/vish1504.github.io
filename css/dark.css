@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+*{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* text-decoration: none; */
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    /* text-align: center; */
+}
+
+.subhome{
+    text-align: center;
+
+    /* margin: 3% -10px 0px 15px ; */
+    margin-top:15%;
+    margin-right:0px;
+    margin-bottom:-19%;
+    margin-left:130px; 
+        /* border: 12px solid blue; */
+    /* width:35%; */
+    /* margin:40px 0px -40px 110px; */
+}
+.one{
+    text-align: center;
+    width:fit-content;
+    margin-left: 20px;
+    color:white;
+    font-family: 'Exo 2', sans-serif;
+    /* font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-family: 'BlinkMacSystemFont'; */
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-left: 8%;                
+    padding-top: 14%; */
+    /* border: 12px solid black; */
+}
+
+.two{
+    text-align: center;
+    width:fit-content;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:white
+    /* margin-left: 8%; *
+    /* height:fit-content; */
+    /* padding-top:50%;      */
+    /* border: 12px solid black; */
+}
+
+.three{
+    text-align: center;
+    width:fit-content;    
+    margin-left: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:white
+    /* border: 12px solid black; */
+}
+
+span.txt-rotate
+{
+    color:aqua;
+}
+
+.imgclass{
+    /* border: 12px solid pink; */
+    width:fit-content;
+    margin-left: 680px;
+    margin-top: -3%;
+    /* height:fit-content; */
+    /* text-align:end; */
+}
+span.name{
+    color:yellow;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width:650px;
+    /* height:fit-content; */
+    border-color: chartreuse;
+    filter: contrast(109%);
+    border-style:double;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+
+button{
+    /* margin-top: 125px; */
+    border-radius: 20px;
+    padding: 20px;
+}
+.modebtn{
+    border: 2px solid green;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* padding-top:0px; */
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: gray;
+  }
+  
+
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
