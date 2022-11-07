@@ -23,19 +23,21 @@ a#resumeLink{
     position:fixed;
    top: 24px;
    right:48px;
-   border:1.5px solid black;
-   padding:10px;
+   border:2px solid black;
+   padding:8px;
    text-decoration: none;
-   background-color:yellow;
+   background-color:red;
    font-family: "Work Sans", sans-serif;
       font-weight: 600;
-   color: black;
+   color: white;
    border-radius: 10px;
-   box-shadow: 1px 2px 9px 1px black;
+   box-shadow: 1px 2px 9px 1px grey;
 }
 
 a#resumeLink:hover{
-    background-color:chartreuse; 
+    background-color:white; 
+    border:3px solid red;
+    color: black;
 }
 .home{
         /* background-color:whitesmoke; */
@@ -464,7 +466,7 @@ section.about{
 }
 div.about{
     text-align: center;
-    background-color:moccasin;
+    background-color:yellow;
     margin-top: 12px;
     margin: 60px;
     padding:20px;
@@ -499,7 +501,7 @@ div.about{
 }
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap'); */
 .aboutpara{
-    background-color: rgb(206, 203, 203);
+    background-color: rgb(213, 211, 211);
     /* position:relative; */
     margin: 10px 40px;
     padding:20px;
@@ -712,7 +714,7 @@ div.projects{
   margin:10px 12px 0px 12px;
 }
  .name{
-    color:#0969da;
+    color:
 }
 
 .box:hover {
