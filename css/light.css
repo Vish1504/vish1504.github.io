@@ -466,7 +466,7 @@ section.about{
 }
 div.about{
     text-align: center;
-    background-color:yellow;
+    background-color:moccasin;
     margin-top: 12px;
     margin: 60px;
     padding:20px;
@@ -501,7 +501,7 @@ div.about{
 }
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap'); */
 .aboutpara{
-    background-color: rgb(213, 211, 211);
+    background-color: gainsboro;
     /* position:relative; */
     margin: 10px 40px;
     padding:20px;
